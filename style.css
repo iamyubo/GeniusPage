@@ -3,6 +3,8 @@ h2 {
 }
 body {
     background-color: #d9544d;
+    display: flex;
+    margin: 0;
 }
  nav {
         width: 200px;               /* fixed width sidebar */
