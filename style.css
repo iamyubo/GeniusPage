@@ -1,35 +1,37 @@
-h2 {
-    color: blueviolet;
-}
-body {
-    background-color: #d9544d;
-    display: flex;
-    margin: 0;
-}
- nav {
-        width: 200px;               /* fixed width sidebar */
+
+        nav {
         background-color: #333;
-        height: 100vh;              /* full viewport height */
-}
-/* Remove list styling */
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-/* Links take full width */
-nav a {
-    display: block;             /* stack links vertically */
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-}
-/* Hover effect */
-nav a:hover {
-    background-color: #575757;
-}
-/* Active/current page */
-nav a.active {
-    background-color: lightcoral;
-    font-weight: bold;
-}
+        }
+        nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        }
+        nav li {
+        margin-right: 20px;
+        }
+        nav a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+        }
+        /* Hover effect */
+        nav a:hover {
+        background-color: #575757;
+        }
+        /* Active (current page) link */
+        nav a.active {
+        background-color: #d56a4c;  /* a green highlight */
+        font-weight: bold;          /* make it stand out */
+        }
+        body {
+            background-color: #ff4c3f;
+        }
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
